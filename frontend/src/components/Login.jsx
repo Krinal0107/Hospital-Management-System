@@ -143,12 +143,20 @@ const Login = () => {
               Login
             </button>
           </form>
+          <div className="flex flex-col">
           <p className="text-center mt-4 text-sm">
             Don’t have an account?{" "}
             <Link to={"/signup"} className="text-blue-500 hover:underline">
               Registration
             </Link>
           </p>
+          <p className="text-center mt-4 text-sm">
+            Don’t have an account?{" "}
+            <Link to={"/signup"} className="text-blue-500 hover:underline">
+              Registration
+            </Link>
+          </p>
+            </div>
         </div>
       </div>
 
